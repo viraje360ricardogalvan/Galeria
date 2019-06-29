@@ -1,0 +1,72 @@
+.encabezado {
+  height: auto;
+  width: 30%;
+  margin: 1.5%;
+  border-bottom: 1px solid #000;
+}
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+}
+
+#image1 {
+  background-image: url(../img/1.jpg);
+}
+
+#image2 {
+  background-image: url(../img/2.jpg);
+}
+
+#image3 {
+  background-image: url(../img/3.jpg);
+}
+
+#image4 {
+  background-image: url(../img/4.jpg);
+}
+
+#image5 {
+  background-image: url(../img/5.jpg);
+}
+
+#image6 {
+  background-image: url(../img/6.jpg);
+}
+
+#image7 {
+  background-image: url(../img/7.jpg);
+}
+
+#image8 {
+  background-image: url(../img/8.jpg);
+}
+
+#image9 {
+  background-image: url(../img/9.jpg);
+}
+
+@media only screen and (max-width: 992px) {
+  .encabezado {
+    width: 48%;
+    margin: 1%;
+  }
+  .img {
+    width: 48%;
+    margin: 1%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .encabezado {
+    width: 96%;
+    margin: 2%;
+  }
+  .img {
+    width: 96%;
+    margin: 2%;
+  }
+}
